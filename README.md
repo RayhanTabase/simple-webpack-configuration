@@ -65,3 +65,4 @@ A simple and quick guide for initial set up of webpack
  ### 4. Additional information
  - This installs style loader to use css in your project other 
  - This installs webpack-dev-server
+ - This installation is for a development environment
