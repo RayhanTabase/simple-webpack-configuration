@@ -1,5 +1,5 @@
 # simple-webpack-configuration
-A simple guide to seting up webpack
+A simple guide for initial set up of webpack
 
 ## 1. To begin a new webpack project run the following npm installations
 - npm init -y
