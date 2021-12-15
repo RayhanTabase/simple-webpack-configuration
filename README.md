@@ -8,11 +8,11 @@ A simple and quick guide for initial set up of webpack
 
 ## STEPS
 ### 1. To begin a new webpack project run the following npm installations
-- npm init -y
-- npm install webpack webpack-cli --save-dev
-- npm install --save-dev style-loader css-loader
-- npm install --save-dev html-webpack-plugin
-- npm install --save-dev webpack-dev-server
+- ``` npm init -y ```
+- ``` npm install webpack webpack-cli --save-dev ```
+- ``` npm install --save-dev style-loader css-loader ```
+- ``` npm install --save-dev html-webpack-plugin ```
+- ``` npm install --save-dev webpack-dev-server ```
 
 ### 2. Modify your package.json file that has been created
 - Remove this -> ```"main": "index.js" ```
@@ -62,7 +62,17 @@ A simple and quick guide for initial set up of webpack
   };
 
  ```
- ### 4. Additional information
+ ### 4. Create Other files and folder
+ - Create an empty folder named 'dist'
+ - creat an empty folder named 'src'
+ - In your src folder add your index.html, index.js and stle.css files
+ - In your index.js file import your stle.css file -> ``` import './style.css': ```
+
+### 5. Run webpack
+- You can run webpack build by typing into the command line -> ``` npm run build ```
+- You can run webpack live server that checks for changes and auto runs build -> ``` npm start ```
+ 
+ ## Additional information
  - This installs style loader to use css in your project other 
  - This installs webpack-dev-server
  - This installation is for a development environment
