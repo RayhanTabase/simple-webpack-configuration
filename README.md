@@ -22,7 +22,7 @@ A simple and quick guide for initial set up of webpack
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
-    "build": "webpack",
+    "build": "webpack"
     }, 
   ```
  
